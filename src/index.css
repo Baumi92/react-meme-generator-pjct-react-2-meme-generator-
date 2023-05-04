@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Center the meme generator in the page */
+.meme-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Style the input fields */
+input[type='text'] {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 1rem 0;
+}
+
+/* Style the select element */
+select {
+  padding: 0.5rem;
+  font-size: 1.5rem;
 }
