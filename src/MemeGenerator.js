@@ -1,4 +1,5 @@
 import './MemeGenerator.css';
+import './index.css';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 
@@ -64,6 +65,7 @@ function MemeGenerator() {
           onChange={(e) => setSelectedTemplate(e.target.value)}
         >
           {templates.map((template) => (
+            // eslint-disable-next-line no-restricted-syntax
             <option key={template.id} value={template.id}>
               {template.name}
             </option>
