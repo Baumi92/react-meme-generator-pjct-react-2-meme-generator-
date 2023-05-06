@@ -1,22 +1,68 @@
-/* Center the meme generator in the page */
-.meme-generator {
+/* Set the background color of the page */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Center the content of the page */
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
+  justify-content: center;
+  height: 100vh;
 }
 
 /* Style the input fields */
-input[type='text'] {
-  padding: 0.5rem;
-  font-size: 1.5rem;
-  border-radius: 0.5rem;
+.input-field {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
   border: none;
-  margin: 1rem 0;
+  border-radius: 5px;
+  background-color: #eaeaea;
 }
 
-/* Style the select element */
-select {
-  padding: 0.5rem;
-  font-size: 1.5rem;
+/* Style the label for the input fields */
+.input-label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Style the meme image */
+#meme-image {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border: 5px solid #000000;
+  border-radius: 5px;
+}
+
+/* Style the meme template selector */
+#template-selector {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eaeaea;
+}
+
+/* Style the button */
+.button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+.button:hover {
+  background-color: #0056b3;
 }

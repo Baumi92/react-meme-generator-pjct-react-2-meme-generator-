@@ -1,68 +1,13 @@
-/* Set the background color of the page */
 body {
-  background-color: #f2f2f2;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Center the content of the page */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-/* Style the input fields */
-.input-field {
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-  border: none;
-  border-radius: 5px;
-  background-color: #eaeaea;
-}
-
-/* Style the label for the input fields */
-.input-label {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-/* Style the meme image */
-#meme-image {
-  width: 500px;
-  height: 500px;
-  margin: 20px;
-  border: 5px solid #000000;
-  border-radius: 5px;
-}
-
-/* Style the meme template selector */
-#template-selector {
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  width: 300px;
-  border: none;
-  border-radius: 5px;
-  background-color: #eaeaea;
-}
-
-/* Style the button */
-.button {
-  margin: 20px;
-  padding: 10px;
-  font-size: 16px;
-  width: 150px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-/* Style the button on hover */
-.button:hover {
-  background-color: #0056b3;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
